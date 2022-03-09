@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Delius&display=swap");
+
+body {
+  background-color: #edd500;
+  font-family: "Delius", cursive;
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: "Bungee Shade", cursive;
+  font-size: 100px;
+  font-weight: bold;
+  color: #4d5eaf;
+}
+
+h2 {
+  font-size: 50px;
+  color: #4b9a0e;
+}
+
+h3 {
+  font-size: 25px;
+  color: #ee5e36;
+}
+
+p {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.email {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  color: #4d5eaf;
+}
+.email:hover {
+  color: #ee5e36;
+  transition: 150ms ease-in-out;
+}
+
+.icons {
+  font-size: 25px;
+  padding: 10px;
+  writing-mode: vertical-rl;
+  color: #4d5eaf;
+}
+
+.skills {
+  border-radius: 50px;
+  background: #4b9a0e;
+  margin: 0 auto;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+#sendButton {
+  color: #4d5eaf;
+}
