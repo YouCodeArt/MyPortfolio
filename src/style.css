@@ -51,10 +51,6 @@ h6 {
   height: 60px;
 }
 
-.fa-brands:hover {
-  color: #ee5e36;
-}
-
 .icons,
 .email {
   font-size: 18px;
@@ -62,7 +58,9 @@ h6 {
   text-decoration: none;
   color: #4d5eaf;
 }
-.email-link:hover {
+.email-link:hover,
+.links:hover,
+.fa-brands:hover {
   color: #ee5e36;
   transition: 150ms ease-in-out;
 }
