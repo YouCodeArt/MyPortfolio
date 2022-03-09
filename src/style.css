@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Delius&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   background-color: #edd500;
-  font-family: "Delius", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
   margin-top: 100px;
   font-family: "Bungee Shade", cursive;
-  font-size: 100px;
+  font-size: 95px;
   font-weight: bold;
   color: #4d5eaf;
 }
@@ -28,6 +28,36 @@ p {
   opacity: 0.7;
 }
 
+footer {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.profile-pic {
+  margin-top: 150px;
+}
+
+.skills {
+  border-radius: 50px;
+  background: #4b9a0e;
+  margin: 0 auto;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.icons {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  color: #4d5eaf;
+}
+
+.icons:hover {
+  color: #ee5e36;
+}
+
 .email {
   font-size: 20px;
   padding: 10px;
@@ -40,25 +70,19 @@ p {
   transition: 150ms ease-in-out;
 }
 
-.icons {
-  font-size: 25px;
-  padding: 10px;
-  writing-mode: vertical-rl;
-  color: #4d5eaf;
-}
-
-.skills {
-  border-radius: 50px;
-  background: #4b9a0e;
-  margin: 0 auto;
-  padding: 10px;
-  width: 60px;
-  height: 60px;
-}
-
 .links {
   text-decoration: none;
   color: #4d5eaf;
+}
+
+.links:hover {
+  cursor: pointer;
+}
+
+#about,
+#work,
+#contact {
+  padding-top: 100px;
 }
 
 #sendButton {
