@@ -56,6 +56,11 @@ p {
   height: 60px;
 }
 
+.links {
+  text-decoration: none;
+  color: #4d5eaf;
+}
+
 #sendButton {
   color: #4d5eaf;
 }
