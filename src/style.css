@@ -40,6 +40,23 @@ h6 {
 
 .profile-pic {
   margin-top: 150px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather,
+.birthstones,
+.map {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather-link,
+.birthstones-link {
+  background: #ee5e36;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
 }
 
 .skills {
@@ -49,6 +66,7 @@ h6 {
   padding: 10px;
   width: 60px;
   height: 60px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .icons,
