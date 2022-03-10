@@ -104,3 +104,46 @@ h6 {
 #sendButton {
   color: var(--primary-color);
 }
+
+@media (max-width: 414px) {
+  h1 {
+    padding-left: 5px;
+    font-size: 30px;
+  }
+  h2 {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  h3 {
+    margin: 0;
+    padding-left: 5px;
+    font-size: 18px;
+  }
+  p {
+    padding: 0 5px;
+    text-align: justify;
+  }
+
+  .coder {
+    margin: 0 auto;
+    display: block;
+  }
+  .profile-pic {
+    margin: 20px auto;
+    display: block;
+  }
+  .birthstones,
+  .weather {
+    display: none;
+  }
+  .app-links {
+    text-align: center;
+  }
+  .icons,
+  .email {
+    font-size: 12px;
+  }
+  .logo-end {
+    width: 15px;
+  }
+}
