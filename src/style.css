@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+  --primary-color: #4d5eaf;
+  --secondary-color: #4b9a0e;
+  --tertiary-color: #ee5e36;
+  --accent-color: #edd500;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
-  background-color: #edd500;
+  background-color: var(--accent-color);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -10,17 +18,17 @@ h1 {
   font-family: "Bungee Shade", cursive;
   font-size: 95px;
   font-weight: bold;
-  color: #4d5eaf;
+  color: var(--primary-color);
 }
 
 h2 {
   font-size: 50px;
-  color: #4b9a0e;
+  color: var(--secondary-color);
 }
 
 h3 {
   font-size: 25px;
-  color: #ee5e36;
+  color: var(--tertiary-color);
 }
 
 p {
@@ -30,7 +38,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #4d5eaf;
+  color: var(--primary-color);
 }
 
 h6 {
@@ -40,19 +48,19 @@ h6 {
 
 .profile-pic {
   margin-top: 150px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
 }
 
 .weather,
 .birthstones,
 .map {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
 }
 
 .weather-link,
 .birthstones-link {
-  background: #ee5e36;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  background: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
   color: white;
   border-radius: 4px;
   padding: 20px 15px;
@@ -61,12 +69,12 @@ h6 {
 
 .skills {
   border-radius: 50px;
-  background: #4b9a0e;
+  background: var(--secondary-color);
   margin: 0 auto;
   padding: 10px;
   width: 60px;
   height: 60px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
 }
 
 .icons,
@@ -74,12 +82,12 @@ h6 {
   font-size: 18px;
   padding: 0 15px;
   text-decoration: none;
-  color: #4d5eaf;
+  color: var(--primary-color);
 }
 .email-link:hover,
 .links:hover,
 .fa-brands:hover {
-  color: #ee5e36;
+  color: var(--tertiary-color);
   transition: 150ms ease-in-out;
 }
 
@@ -94,5 +102,5 @@ h6 {
 }
 
 #sendButton {
-  color: #4d5eaf;
+  color: var(--primary-color);
 }
