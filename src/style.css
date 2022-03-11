@@ -32,6 +32,7 @@ h3 {
 }
 
 p {
+  text-align: justify;
   font-size: 18px;
   opacity: 0.7;
 }
@@ -121,7 +122,6 @@ h6 {
   }
   p {
     padding: 0 5px;
-    text-align: justify;
   }
 
   .coder {
