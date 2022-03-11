@@ -13,6 +13,27 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+nav {
+  padding: 0 15px;
+}
+
+/*
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+.logo {
+  width: 40px;
+}
+*/
+
 h1 {
   margin-top: 100px;
   font-family: "Bungee Shade", cursive;
@@ -34,17 +55,27 @@ h3 {
 p {
   text-align: justify;
   font-size: 18px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 a {
   text-decoration: none;
   color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
 h6 {
   font-size: 13px;
   opacity: 0.7;
+}
+
+.nav-link,
+.navbar-toggler {
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
 }
 
 .profile-pic {
@@ -85,11 +116,11 @@ h6 {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 .email-link:hover,
 .links:hover,
 .fa-brands:hover {
   color: var(--tertiary-color);
-  transition: 150ms ease-in-out;
 }
 
 .footer {
@@ -113,7 +144,7 @@ h6 {
   }
   h2 {
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 25px;
   }
   h3 {
     margin: 0;
