@@ -44,7 +44,7 @@ p {
 a {
   text-decoration: none;
   color: var(--primary-color);
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 h6 {
@@ -151,7 +151,8 @@ h6 {
   }
   .icons,
   .email {
-    font-size: 12px;
+    font-size: 13px;
+    padding: 0;
   }
   .logo-end {
     width: 15px;
